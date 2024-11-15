@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Akzidenz Grotesk Regular';
+    src: url('../fonts/AkzidenzGroteskBE-Regular.otf') format('opentype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Akzidenz Grotesk Super';
+	src: url('../fonts/AkzidenzGroteskBE-Super.otf') format('opentype');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Akzidenz Grotesk SuperItalic';
+    src: url('../fonts/AkzidenzGrotesk-SuperItalic.otf') format('opentype');
+    font-display: swap;
+}
+
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Material Icons'), local('Material-Icons'), url('../fonts/Material-Icons.woff2') format('woff2');
+  //src: url(https://fonts.gstatic.com/s/materialicons/v140/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Icons Outlined';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Material Icons Outlined'), local('Material-Icons-Outlined'), url('../fonts/Material-Icons-Outlined.woff2') format('woff2');
+  //src: url(https://fonts.gstatic.com/s/materialiconsoutlined/v109/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUcel5euIg.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Icons Round';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Material Icons Rounded'), local('Material-Icons-Rounded'), url('../fonts/Material-Icons-Rounded.woff2') format('woff2');
+  //src: url(https://fonts.gstatic.com/s/materialiconsround/v108/LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmPq_HTTw.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Icons Sharp';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Material Icons Sharp'), local('Material-Icons-Sharp'), url('../fonts/Material-Icons-Sharp.woff2') format('woff2');
+  //src: url(https://fonts.gstatic.com/s/materialiconssharp/v109/oPWQ_lt5nv4pWNJpghLP75WiFR4kLh3kvmvRImcycg.woff2) format('woff2');
+}
+/* fallback */
+@font-face {
+  font-family: 'Material Icons Two Tone';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Material Icons Two Tone'), local('Material-Icons-TwoTone'), url('../fonts/Material-Icons-TwoTone.woff2') format('woff2');
+  //src: url(https://fonts.gstatic.com/s/materialiconstwotone/v112/hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNCu0NjbrHg.woff2) format('woff2');
+}
+
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/font-icon';
+@import 'base/global';
+
+// to override default scss
+@import 'base/custom';
